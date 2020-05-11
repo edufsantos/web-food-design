@@ -1,0 +1,84 @@
+.header{
+  height: 800px;
+  width: 100%;
+  background-image: url('../../utilss/salada-2.png');
+  background-repeat: no-repeat ;
+  min-height: 800px;
+  background-size: contain ;
+  background-position: top left;
+  font-family: "Gilroy ExtraBold";
+
+}
+
+.conteudo{
+  margin-left: 50%;
+  margin-top: 5%;
+}
+.conteudo span{
+  padding-top: 100px;
+  color: #FF9F0D;
+}
+.conteudo h1{
+  margin-top: 0%;
+  color: #484848;
+  width: 80%;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.conteudo p{
+  line-height: 20px;
+  font-family: "Gilroy SemiBold";
+  color: #717171;
+  width: 50%;
+  font-size: 15px;
+}
+.conteudo .btn-learn{
+  font-family: "Gilroy ExtraBold";
+  -webkit-box-shadow: -1px 27px 77px -31px rgba(231,166,26,1);
+  -moz-box-shadow: -1px 27px 77px -31px rgba(231,166,26,1);
+  box-shadow: -1px 27px 77px -31px rgba(231,166,26,1);
+
+  height: 50px;
+  width: 150px;
+  border: 0;  
+  font-size: 15px;
+  border-radius: 60px;
+  color: #fff;
+  background-color: #FF9F0D;
+}
+
+.conteudo button:hover {
+  transition: 0.5s;
+  border: #FF9F0D;
+  color: #FF9F0D;
+  background-color: #fff;
+  box-shadow: none;
+}
+.conteudo button:focus{
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+    outline: 0;
+} 
+.conteudo .btns-play{
+  display: flex;
+}
+.conteudo a{
+  display: flex;
+  align-items: center;
+  color: #717171;
+  font-family: "Gilroy";
+  text-decoration: none;
+}
+.conteudo a:hover {
+  transition: 0.5s;
+  border: #FF9F0D;
+  color: #FF9F0D;
+  background-color: #fff;
+}
+.conteudo a img{
+  margin-right: 10px;
+  margin-left: 20px;
+  height: 50px;
+  width: 50px;
+}

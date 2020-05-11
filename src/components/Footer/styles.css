@@ -1,0 +1,121 @@
+.footer{
+  height: 80vh;
+  width: 100%;
+  text-align: center;
+  
+  background-image: url('../../utilss/footer.png');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+.input{
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  
+  height: 80px;
+  width: 46%;
+  border-radius: 120px;
+  padding: 0 12px 0 25px;
+  box-shadow:  0 0 2em  rgba(0,0,0,0.09) ;
+
+}
+.footer  button:focus{
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+} 
+.footer  button:hover{
+  transition: 1s;
+  font-weight: bold;
+  color: #FF9F0D;
+  background-color: transparent;
+}
+.footer h1{
+  font-family: "Gilroy ExtraBold";
+  margin-top: 0%;
+  color: #484848;
+  font-size: 30px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  max-width: 500px;
+  font-weight: 100;
+}
+.input input:focus{
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+    outline: 0;
+} 
+.input input{
+  height: 100%;
+  width: 69%;
+  background-color: transparent;
+  border: 0;
+  font-size: 20px;
+
+}
+.input button{
+  font-family: 'Gilroy';
+  border: 0;
+  font-size: 20px;
+  color: #fff;
+  width: 30%;
+  height: 70px;
+  border-radius: 60px ;
+  background-color: #FF9F0D;
+}
+.footer-options{
+  margin-top: 63px;
+  height: 65%;
+  width: 100%;
+}
+.header-footer{
+   display: flex;
+   width: 700px;
+   margin: 0 auto;
+   align-items: center;
+   justify-content: space-between;
+}
+.header-footer ul{
+  display: flex;
+}
+.header-footer ul li{
+  list-style: none;
+  padding: 0 20px;
+  font-family: "Gilroy SemiBold";
+  color: black;
+}
+.header-footer h1{
+  margin: 0;
+}
+.grid-contact{
+  display: grid;
+  margin: 0 auto;
+  height: 130px;
+  width: 55%;
+  grid-template-columns: 1fr 2fr;
+}
+.icons{
+  height: 100%;
+  display: flex;
+}
+.contact{
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+.contact p {
+  padding: 0 30px;
+  font-family: "Gilroy";
+  color: #717171 ;
+}
+.i-Fa{
+  margin-left: 20px;
+  margin-top: 60px;
+  color: #484848;
+  font-size: 20px;
+}
+.i-Fa:hover{
+  color: #FF9F0D;
+  font-size: 25px;
+}

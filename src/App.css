@@ -1,38 +1,159 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+@import url(//db.onlinewebfonts.com/c/00d5a78493aed4b11e2584ad7cceee49?family=Gilroy+ExtraBold);
+@import url(//db.onlinewebfonts.com/c/000833a3a58fb083c44b9de42c2ff0a2?family=Gilroy+SemiBold);
+@font-face {font-family: "Gilroy ExtraBold"; src: url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.eot"); src: url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.woff") format("woff"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.svg#Gilroy ExtraBold") format("svg"); }
+@font-face {font-family: "Gilroy SemiBold"; src: url("//db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.eot"); src: url("//db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.woff") format("woff"), url("//db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.svg#Gilroy SemiBold") format("svg"); }
+.App{
   min-height: 100vh;
+}
+
+/*--------header---------*/
+header{
+  background-image: url('./utilss/salada-1.png');
+  background-repeat: no-repeat ;
+  background-size: contain ;
+  background-position: bottom right ;
+  width: 100%;
+  height: 800px;
+}
+
+.conteudo-header{
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.conteudo-header h1{
+  font-family: "Gilroy ExtraBold";
+  color: #484848;
+  width: 50%;
+  font-size: 60px;
+}
+.conteudo-header p{
+  line-height: 25px;
+  font-family: "Gilroy SemiBold";
+  color: #717171;
+  width: 40%;
+  font-size: 15px;
+}
+.conteudo-header ul a:focus{
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+} 
+.conteudo-header ul a{ 
+  color: #fff;
   display: flex;
-  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding-top: 15px;
+  text-decoration: none;
+}
+.conteudo-header ul {
+  font-family: "Gilroy ExtraBold";
+  -webkit-box-shadow: -1px 27px 77px -21px rgba(231,166,26,1);
+  -moz-box-shadow: -1px 27px 77px -21px rgba(231,166,26,1);
+  box-shadow: -1px 27px 77px -21px rgba(231,166,26,1);
+  height: 60px;
+  width: 200px;
+  border: 0;  
+  background-color: #FF9F0D;
+  font-size: 20px;
+  border-radius: 60px;
+  color: #fff;
+}
+.conteudo-header .arrow{
+  margin-left: 20px;
+  height: 25px;
+  width: 25px;
+}
+.conteudo-header .arrow:hover{
+  color: #FF9F0D;
+}
+.conteudo-header ul:hover{
+  transition: 0.5s;
+  background-color: #fff;
+  box-shadow: none;
+}
+.conteudo-header ul a:hover {
+  transition: 0.5s;
+  border: #FF9F0D;
+  color: #FF9F0D;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.main-header{ 
+  width:80%;
+  height: 80px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Gilroy ExtraBold";
+  position: relative;
+}
+.main-header h1{
+  font-size: 30px;
+  color: #484848;
+  font-weight: 100;
+}
+.nav-bar{
+  display: flex;
+}
+.nav-bar nav ul .li-1:hover{
+  color: #FF9F0D;
+}
+.nav-bar nav ul li:hover {
+  color: #fff;
+}
+.nav-bar nav ul{
+  display: flex;
+}
+.nav-bar nav ul li{
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  margin-right: 50px;
+  list-style: none;
+}
+.nav-bar nav ul li img{
+  color: black;
+  height: 20px;
+  width: 20px;
+}
+.nav-bar nav ul li img:hover{
+  color: #fff;
+}
+
+.nav-bar button:focus{
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+} 
+.nav-bar button:hover{
+  transition: 1s;
+  color: #fff;
+  background-color: transparent;
+}
+.nav-bar  button{
+  font-family: "Gilroy ExtraBold";
+  box-shadow:  0 15px 1em  rgba(0,0,0,0.09) ;
+  width: 150px;
+  height: 50px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  font-weight: bold;
+  color: #484848;
+  background-color: #fff;
+  font-size: 15px;
+  border-radius: 60px;
+  border: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.content1{
+  background: #333;
+  height: 500px;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+

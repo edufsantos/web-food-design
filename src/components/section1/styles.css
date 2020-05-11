@@ -1,0 +1,42 @@
+
+.times{ 
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Gilroy ExtraBold";
+  
+}
+.times .carts{
+  box-shadow:  0 0 1em  rgba(0,0,0,0.09) ;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  margin: 0 30px;
+  height: 100%;
+  width: 20%;
+  border-radius: 0 60px 0 60px;
+  background-color:#fff;
+
+}
+.carts h1{
+  margin-top: 40px;
+  font-weight: bold;
+  color: #484848;
+  font-size: 15px;
+}
+.carts img:hover{
+  transform: rotate(35deg);
+}
+.carts img{
+  height: 30px;
+  width: 30px;
+  margin-top: 40px;
+}
+.carts p {
+  color: #717171;
+  font-size: 12px;
+  font-weight: bold;
+
+}

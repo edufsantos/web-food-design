@@ -1,0 +1,51 @@
+.perfil{
+  height: 100vh;
+  width: 100%;
+  font-family: "Gilroy ExtraBold";
+  text-align: center;
+  background-image: url('../../utilss/alface.png');
+  background-position: top right;
+  background-repeat: no-repeat;
+  position: relative;
+
+ }
+ .perfil > span{
+  font-family: "Gilroy SemiBold";
+  color: #FF9F0D;
+ }
+ .perfil > h1{
+  font-family: "Gilroy ExtraBold";
+  margin-top: 0%;
+  color: #484848;
+  font-size: 40px;
+  font-weight: 100;
+ }
+ .perfil > p{
+  line-height: 20px;
+  font-family: "Gilroy SemiBold";
+  color: #717171;
+  font-size: 15px;
+  margin-bottom: 5%;
+
+ }
+
+ .box-perfil{
+  height: 250px;
+  margin: 0 auto;
+  width: 40%;
+  border-radius: 0 60px 0 60px;
+  box-shadow:  0 0 2em  rgba(0,0,0,0.11) ;
+
+ }
+
+ .box-perfil img{
+   margin-top: 20px;
+   height: 110px;
+   width: 110px;
+   border-radius: 50% ;
+ }
+ .box-perfil p {
+   
+  font-family: "Gilroy SemiBold";
+  color: #484848;
+ }

@@ -1,0 +1,148 @@
+ .shop{
+  height: 200vh;
+  width: 100%;
+  font-family: "Gilroy ExtraBold";
+  text-align: center;
+ }
+ .shop > span{
+  font-family: "Gilroy SemiBold";
+  color: #FF9F0D;
+ }
+ .shop > h1{
+  font-family: "Gilroy ExtraBold";
+  margin-top: 0%;
+  color: #484848;
+  font-size: 40px;
+  font-weight: 100;
+ }
+ .shop > p{
+  line-height: 20px;
+  font-family: "Gilroy SemiBold";
+  color: #717171;
+  font-size: 15px;
+  margin-bottom: 5%;
+
+ }
+ .block-cart{
+    display: flex;  
+    height: 70%;
+    width: 100%;
+    flex-wrap: wrap; 
+    justify-content: center;
+
+ }
+ @media(max-width: 740px){
+   .shop{
+     display: none;
+   }
+ }
+ @media(max-width: 1100px){
+  .shop{
+    height: 2000px;
+  }
+ }
+ .shop-cart{
+   overflow:  hidden;
+  box-shadow:  0 0 2em  rgba(0,0,0,0.11) ;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  margin: 30px 30px;
+  height: 400px;
+  width: 300px;
+  border-radius: 0 40px 0 40px;
+  background-color:#fff;
+ } 
+ .shop-cart img{
+   width: 100%;
+   height: 50%;
+   border-radius: 0 40px 0 40px;
+ }
+ .block-h1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+ .block-h1 h1{
+  font-family: "Gilroy SemiBold";
+
+   padding: 0 20px;
+   margin-top: 5px;
+   margin-bottom: 0;
+ }
+ .block-p{
+    text-align: left;
+ }
+ .block-p p {
+  font-family: "Gilroy SemiBold";
+  color: #717171;
+   padding: 0 20px;
+   margin-top: 0 ;
+   font-size: 12px;
+ }
+ .block-p p.especial{
+  margin-bottom:  0;
+  font-size: 15px;
+ }
+
+ .botao-stars{
+   width: 100%;
+   height: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ .botao-stars button{
+   height: 100%;
+   width: 35%;
+   border: 0;
+   color: #fff;
+   margin-top: 21px;
+   text-align: center;
+   font-size: 65px;
+   background-color: #FF9F0D;
+   border-radius: 40px 0 0 0;
+ }
+ .botao-stars button:hover {
+  transition: 0.5s;
+  border: #FF9F0D;
+  color: #FF9F0D;
+  background-color: #fff;
+}
+
+ .botao-stars .stars{
+   margin-top:  60px;
+ }
+
+ .botao-loads {
+   overflow: hidden;
+   margin: 0 auto;
+   width: 20%;
+   height: 60px;
+
+  }
+.botao-loads button {
+  width: 60%;
+  -webkit-box-shadow: -1px 27px 77px -21px rgba(231,166,26,1);
+  -moz-box-shadow: -1px 27px 77px -21px rgba(231,166,26,1);
+  box-shadow: -1px 27px 77px -21px rgba(231,166,26,1);
+  border: 0;
+  color: #fff;
+  font-size: 17px;
+  border-radius:  30px;
+  background-color: #FF9F0D;
+  height: 50px;
+  font-family: "Gilroy SemiBold";
+}
+.botao-loads button:hover {
+  transition: 0.5s;
+  box-shadow: none;
+  border: #FF9F0D;
+  color: #FF9F0D;
+  background-color: #fff;
+}
+.botao-loads  button:focus{
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+} 
