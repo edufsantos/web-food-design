@@ -94,6 +94,7 @@
  }
  .botao-stars button{
    height: 100%;
+   cursor: pointer;
    width: 35%;
    border: 0;
    color: #fff;
