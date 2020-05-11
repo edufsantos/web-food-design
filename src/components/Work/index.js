@@ -8,24 +8,24 @@ function Work() {
   return (
     <div className="component-work">
       <span>Work</span>
-      <h1>How it Works</h1>
-      <p>The href attribute requires a valid value to be accessible.</p>  
+      <h1>Como trabalhamos</h1>
+      <p>Nossa metodoliga de entrega é muito reconhecida pelos seguintes itens</p>  
       <div className="times-work">
         <div className="carts-work">
             <img src={chiken} alt=""/>
-            <h1>Pick Meals</h1>
+            <h1>Refeição Facil</h1>
             <p>Lorem Ipsum é simplesmente uma simulação de 
               texto da indústria tipográfica e de impressos</p>
         </div>
         <div className="carts-work">
             <img src={toque} alt=""/>
-            <h1>Choose How Often</h1>
+            <h1>Flexibilidade</h1>
             <p>Lorem Ipsum é simplesmente uma simulação de texto da 
               indústria tipográfica e de impresso</p>
         </div>
         <div className="carts-work">
             <img src={fast} alt=""/>
-            <h1>Fast Deliveries</h1>
+            <h1>Entrega Rápida</h1>
             <p>Lorem Ipsum é simplesmente uma
                simulação de texto da indústria tipográfica e de impressos</p>
         </div>

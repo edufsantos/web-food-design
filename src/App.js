@@ -20,7 +20,7 @@ function App() {
                 <nav>
                   <ul>
                     <li className="li-1">Home</li>
-                    <li>Packages</li>
+                    <li className="li-1">Pacotes</li>
                     <li>About us</li>
                     <li>Contact us</li>
                     <li><img src={cart} alt="Carrinho"/> </li>
@@ -30,12 +30,12 @@ function App() {
               </div>
         </div> 
         <div className="conteudo-header">  
-          <h1>Teste para ver a responsividade </h1>
+          <h1>Bem Vindo ao melhor site delivery</h1>
           <p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível
             de uma página quando..</p>
           
           <ul>
-              <a href="">Ola<MdArrowForward className="arrow" /></a>
+              <a href="">Saiba Mais<MdArrowForward className="arrow" /></a>
           </ul>
         </div>   
       </header>

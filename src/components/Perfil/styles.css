@@ -30,7 +30,7 @@
  }
 
  .box-perfil{
-  height: 250px;
+  height: 260px;
   margin: 0 auto;
   width: 40%;
   border-radius: 0 60px 0 60px;
@@ -48,4 +48,7 @@
    
   font-family: "Gilroy SemiBold";
   color: #484848;
+ }
+ .stars{
+   padding-bottom: 25px;
  }

@@ -12,10 +12,9 @@
 
 .conteudo{
   margin-left: 50%;
-  margin-top: 5%;
+  padding-top: 120px;
 }
 .conteudo span{
-  padding-top: 100px;
   color: #FF9F0D;
 }
 .conteudo h1{
