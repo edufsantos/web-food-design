@@ -61,7 +61,20 @@
     flex-direction: column;
   }
   .times .carts{
-    width: 40%;
+    
+    width: 70%;
+    height: 400px;
     margin-bottom: 30px;
+  }
+  .times .carts h1{
+    font-size: 30px;
+  }
+  .times .carts img{
+    height: 60px;
+    width: 60px;
+  }
+  .times .carts p{
+      font-size: 20px;
+      padding-bottom: 10px;
   }
 }

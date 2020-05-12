@@ -15,7 +15,8 @@ function HeaderTwo() {
             <p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível
               de uma página quando estiver examinando sua diagramação.</p>
           </div>
-          <div className="btns-play">  
+          <div className="btns-play">
+  
             <button className="btn-learn">Learn More</button> 
             <a href="#"><img src={play} alt=""/>Watch Video</a>
           </div>

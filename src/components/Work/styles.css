@@ -73,8 +73,43 @@
   }.component-work{
     height: 1300px;
   }
+  .component-work span{
+    font-size: 20px;
+  }
+  .component-work p  {
+    font-size: 20px;
+  }
   .carts-work{
-    width: 300px;
-    margin-bottom: 30px;
+    width: 70%;
+    margin: 0 0 40px 0 ;
+
+    height: 400px;
+  }
+  .carts-work h1{
+    font-size: 30px;
+  }
+  .carts-work p{
+
+    margin: 0 auto;
+    font-size: 20px;
+    padding-bottom: 30px ;
+  }
+
+}
+@media only screen and (max-width: 450px) {
+  .component-work{
+    height: 1400px;
+  }
+  .component-work p {
+    box-sizing: border-box;
+    padding-bottom:100px ;
+  }
+  .carts-work h1{
+    font-size: 30px;
+  }
+  .carts-work p{
+    margin: 0 auto;
+    font-size: 20px;
+    padding-bottom: 30px ;
   }
 }

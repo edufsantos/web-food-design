@@ -267,7 +267,7 @@ header{
     background: #ffffff;
   }
   .border-top{
-    padding-top: 150px;
+    padding-top: 250px;
   }
   .main-header .burger{
     display: block;
@@ -278,29 +278,36 @@ header{
   }
   .nav-bar ul{  
     position: absolute;
-    right: -88px;
     top: 2vh;
-    height: 225px;
+    right: 380px;
+    height: 30vh;
     border-radius: 0 0 0 60px;
     background-color: #FF9F0D;
     color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width:200px;
+    width: 668px;
     transform: translateX(100%);
     transition: transform .3s ease-in;
   }
   .nav-bar ul li:first-child{
     margin-top: 10px; 
   }
-  .nav-bar ul li{
+  .nav-bar nav ul li{
     box-sizing: border-box;
     padding: 10px;
+    font-size: 30px;
+  }
+  .nav-bar nav ul  img{
+    display: none;
   }
   .main-header h1{
     color:#fff;
     padding: 0;
+  }
+  .conteudo-header p{
+    font-size: 30px;
   }
   .main-header{ 
     box-sizing: border-box;
