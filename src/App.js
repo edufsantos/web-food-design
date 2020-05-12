@@ -20,7 +20,8 @@ function App() {
     <div className="App">
       <header>
         <div className="main-header">
-              <h1>FOOD</h1>    
+              <h1>FOOD</h1>  
+                
               <div className= { active  ? "nav-bar nav-active" : "nav-bar"}>
                 <nav>
                   <ul>
