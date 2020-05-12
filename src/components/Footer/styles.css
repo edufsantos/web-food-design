@@ -130,3 +130,12 @@
     height: 60vh;
   }
 }
+@media only screen and (max-width: 420px){
+  .footer-options .header-footer{
+    box-sizing: border-box;
+    padding: 0 60px;
+  }
+  .footer-options .grid-contact{
+    width: 90%;
+  }
+}

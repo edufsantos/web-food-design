@@ -51,7 +51,12 @@
   }
 }
 @media only screen and (max-width: 420px) {
-  .times{
+  
+  .times{  
+    background-image: url('../../utilss/salada-2.png');
+    background-repeat: no-repeat ;
+    background-size: contain ;
+    background-position: top left;
     height: 690px;
     flex-direction: column;
   }

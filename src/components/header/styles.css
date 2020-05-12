@@ -81,3 +81,30 @@
   height: 50px;
   width: 50px;
 }
+@media only screen and (max-width: 420px) {
+  .header{
+    background: #fff;
+  }
+  .conteudo{
+    margin: 0;
+    text-align:center ;
+  }
+  .conteudo h1{
+    margin: 0 auto  ;
+    width: 80%;
+  }
+  .conteudo p{
+    text-align: left;
+    padding-top: 20px;
+    margin: 0 auto;
+    max-width: 300px;
+  }
+  .alinhar-p {
+    display: flex;
+  }
+  .conteudo .btns-play{
+    padding-top: 20px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+}

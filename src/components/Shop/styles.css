@@ -31,16 +31,7 @@
     justify-content: center;
 
  }
- @media(max-width: 740px){
-   .shop{
-     display: none;
-   }
- }
- @media(max-width: 1100px){
-  .shop{
-    height: 2000px;
-  }
- }
+
  .shop-cart{
    overflow:  hidden;
   box-shadow:  0 0 2em  rgba(0,0,0,0.11) ;
@@ -149,8 +140,17 @@
 } 
 
 @media only screen and (max-width: 860px) {
+  .shop{
+    height: 2000px;
+  }
   .botao-loads  {
     width: 40%;
   }
   
+}
+
+@media only screen and (max-width: 750px){
+  .shop{
+    height: 3950px;
+  }
 }

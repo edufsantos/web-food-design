@@ -43,7 +43,9 @@ function App() {
         </div> 
 
 
-        <div className="conteudo-header">  
+        <div className={ active ?
+           "border-top conteudo-header content-center" 
+           : "conteudo-header content-center"  }>  
           <h1>Bem Vindo ao melhor site delivery</h1>
           <p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível
             de uma página quando..</p>
