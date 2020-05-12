@@ -27,7 +27,6 @@
 .times-work{ 
   height: 300px;
   width: 100%;
-  flex-wrap: wrap;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,4 +65,16 @@
   font-size: 12px;
   font-weight: bold;
   max-width: 200px;
+}
+@media only screen and (max-width: 860px) {
+  .times-work{
+    margin-top: 400px;
+    flex-direction: column;
+  }.component-work{
+    height: 1300px;
+  }
+  .carts-work{
+    width: 300px;
+    margin-bottom: 30px;
+  }
 }

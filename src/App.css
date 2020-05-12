@@ -2,8 +2,12 @@
 @import url(//db.onlinewebfonts.com/c/000833a3a58fb083c44b9de42c2ff0a2?family=Gilroy+SemiBold);
 @font-face {font-family: "Gilroy ExtraBold"; src: url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.eot"); src: url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.woff") format("woff"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.svg#Gilroy ExtraBold") format("svg"); }
 @font-face {font-family: "Gilroy SemiBold"; src: url("//db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.eot"); src: url("//db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.woff") format("woff"), url("//db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.svg#Gilroy SemiBold") format("svg"); }
+body{
+  overflow-x: hidden;
+}
 .App{
   min-height: 100vh;
+  position: absolute;
 }
 
 /*--------header---------*/
@@ -11,7 +15,7 @@ header{
   background-image: url('./utilss/salada-1.png');
   background-repeat: no-repeat ;
   background-size: contain ;
-  background-position: bottom right ;
+  background-position: top right ;
   width: 100%;
   height: 800px;
 }
@@ -20,6 +24,7 @@ header{
   margin-left: 10%;
   margin-top: 10%;
 }
+
 .conteudo-header h1{
   font-family: "Gilroy ExtraBold";
   color: #484848;
@@ -160,3 +165,108 @@ header{
 }
 
 
+@media only screen and (max-width: 860px) {
+  body{
+  }
+  header{
+    height: 1300px;
+  }
+  .conteudo-header{
+    margin-top: 90% ;
+    margin-left: 0;
+    text-align: center;
+  }
+  .nav-bar nav ul .li-1:hover{
+    color: #fff;
+  }
+  .nav-bar button{
+    padding: 0%;
+  }
+  .conteudo-header h1{
+    font-family: "Gilroy ExtraBold";
+    color: #484848;
+    width: 100%;
+    font-size: 60px;
+  }
+  .conteudo-header p{
+    line-height: 25px;
+    font-family: "Gilroy SemiBold";
+    color: #717171;
+    width: 100%;
+    font-size: 15px;
+  }
+  .conteudo-header ul {
+    margin-left: 35%;
+  }
+  .main-header .burger{
+    cursor: pointer;
+    display: none;
+    margin-top: 25px;
+    box-sizing: border-box;
+    height: 60px;
+    width: 40px;
+  }
+  .main-header .burger div{
+    height: 5px;
+    margin: 5px;
+    border-radius:10px ;
+    width: 30px;
+    background-color: #fff;
+  }
+}
+@media only screen and (max-width: 420px) {
+  body{
+  }
+    
+  header{
+    width: 100%;
+    background: #ffffff;
+  }
+  .main-header .burger{
+    display: block;
+  }
+  .nav-bar ul{  
+    position: absolute;
+    right: -88px;
+    top: 2vh;
+    height: 30vh;
+    border-radius: 0 0 0 60px;
+    background-color: #FF9F0D;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:200px;
+    transform: translateX(100%);
+    transition: transform .3s ease-in;
+  }
+  .nav-bar ul li:first-child{
+    margin-top: 10px; 
+  }
+  .nav-bar ul li{
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  .main-header{
+    box-sizing: border-box;
+    padding: 40px;
+    width: 100%;
+    background-color: #FF9F0D;
+  }
+  .nav-bar ul li{
+    opacity: 1;
+  }
+  .nav-bar button{
+    display: none;
+  }
+  .conteudo-header{
+    margin-top: 30% ;
+    margin-left: 0;
+    text-align: center;
+  }
+  
+}
+.nav-active{
+  transition: transform 0.3s ease-in;
+  transform: translateX(0);
+}
