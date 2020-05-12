@@ -50,3 +50,13 @@
     margin-bottom: 30px;
   }
 }
+@media only screen and (max-width: 420px) {
+  .times{
+    height: 690px;
+    flex-direction: column;
+  }
+  .times .carts{
+    width: 40%;
+    margin-bottom: 30px;
+  }
+}
