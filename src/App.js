@@ -31,8 +31,8 @@ function App() {
                     <li>Contact us</li>
                     <li><img src={cart} alt="Carrinho"/> </li>
                   </ul>
+                  <button>Login</button>
                 </nav>
-                <button>Login</button>
               </div>
               
               <div onClick={addActive} className="burger">

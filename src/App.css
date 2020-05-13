@@ -105,7 +105,6 @@ header{
 }
 .nav-bar{
   display: flex;
-  padding: 100px;
 }
 .nav-bar nav ul .li-1:hover{
   color: #FF9F0D;
@@ -131,6 +130,9 @@ header{
 }
 .nav-bar nav ul li img:hover{
   color: #fff;
+}
+.nav-bar nav{
+  display: flex;
 }
 
 .nav-bar button:focus{
@@ -177,16 +179,10 @@ header{
     margin-left: 0;
     text-align: center;
   }
-  .main-header .burger{
-    display: block;
-  }
-  .nav-bar{
-    display: none;
-  }
   .nav-bar ul{  
     position: absolute;
     right: -88px;
-    top: 2vh;
+    top: 6vh;
     height: 225px;
     border-radius: 0 0 0 60px;
     background-color: #FF9F0D;
@@ -240,7 +236,6 @@ header{
   }
   .main-header .burger{
     cursor: pointer;
-    display: none;
     margin-top: 25px;
     box-sizing: border-box;
     height: 60px;

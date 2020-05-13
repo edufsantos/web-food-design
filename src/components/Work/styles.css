@@ -102,14 +102,21 @@
   }
   .component-work p {
     box-sizing: border-box;
-    padding-bottom:100px ;
+    margin: 0 auto;
+    padding-left:40px;
+    padding-right: 40px;
+    padding-bottom:150px ;
+  }
+  .carts-work{
+    text-align: center;
   }
   .carts-work h1{
     font-size: 30px;
   }
   .carts-work p{
-    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
     font-size: 20px;
-    padding-bottom: 30px ;
+    padding-bottom: 50px ;
   }
 }

@@ -11,7 +11,7 @@ function Shop() {
   return (
     <div className="shop">
       <span>Menu</span>
-      <h1>Conheca nossos pratos</h1>
+      <h1>Conheca nossos Principais Pratos</h1>
       <p>escolha seu almoço e janta preferidos conosco, sem sair de casa</p>
 
       <div className="block-cart"> 
@@ -100,7 +100,7 @@ function Shop() {
             </div>
           </div>
 
-          <div className="shop-cart">
+          <div className="shop-cart shop-especial">
             <img src="https://images.unsplash.com/photo-1561363268-f17491a094bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt=""/>
             <div className="block-h1">
               <h1>Camarao</h1> <h1>25$</h1>

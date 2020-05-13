@@ -83,6 +83,8 @@
 }
 @media only screen and (max-width: 420px) {
   .header{
+    height: 650px;
+    min-height:650px;
     background: #fff;
   }
   .conteudo{
@@ -90,21 +92,49 @@
     text-align:center ;
   }
   .conteudo h1{
+    box-sizing: border-box;
+    padding-bottom: 20px;
     margin: 0 auto  ;
     width: 80%;
+    border-bottom: 1px solid #333;
+  }
+  .conteudo p:first-child{
+    box-sizing: border-box;
+    padding-top: 30px;  
   }
   .conteudo p{
     text-align: left;
     padding-top: 20px;
+    border-bottom: 1px solid #333;
     margin: 0 auto;
-    max-width: 300px;
+    max-width: 600px;
   }
   .alinhar-p {
-    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .alinhar-p p{
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    width: 100%;
+    font-size: 20px;
   }
   .conteudo .btns-play{
     padding-top: 20px;
-    margin: 0 auto;
     justify-content: center;
   }
+  .conteudo .btn-learn {
+    height: 98px;
+    width: 209px;
+    font-size: 20px;
+  }
+  .conteudo a {
+    font-size: 20px;
+  }
+  .conteudo a img {
+    height: 90px;
+    width: 90px;
+  }
+
 }
