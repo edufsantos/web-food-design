@@ -8,7 +8,7 @@ function Perfil() {
   return (
     <div className="perfil">
       <span>Desenvolvedor</span>
-      <h1>Front-End</h1>
+      <h1>Front-End Developer</h1>
       <p>Quem nunca cometeu um erro nunca tentou nada de novo.</p>
 
       <div className="box-perfil">

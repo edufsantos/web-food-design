@@ -253,8 +253,9 @@ header{
   body{
     height: 100%;
   }
+
   .conteudo-header ul{
-    margin-left: 30%;
+    margin: 0 auto;
   }
   header{
     height: 750px;    
@@ -289,6 +290,9 @@ header{
   .nav-bar ul li:first-child{
     margin-top: 10px; 
   }
+  .nav-bar ul li:last-child{
+    margin-bottom: 20px;
+  }
   .nav-bar nav ul li{
     box-sizing: border-box;
     padding: 10px;
@@ -303,6 +307,10 @@ header{
   }
   .conteudo-header p{
     font-size: 30px;
+    margin-bottom: 50px;
+  }
+  .conteudo-header h1{
+    margin-bottom: 50px;
   }
   .main-header{ 
     box-sizing: border-box;
@@ -344,3 +352,6 @@ header{
     transform: translateX(0);
   }
 }
+
+
+

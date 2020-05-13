@@ -83,7 +83,7 @@
 }
 @media only screen and (max-width: 420px) {
   .header{
-    height: 650px;
+    height: 780px;
     min-height:650px;
     background: #fff;
   }
@@ -109,6 +109,9 @@
     margin: 0 auto;
     max-width: 600px;
   }
+  .conteudo span{
+    font-size: 30px;
+  }
   .alinhar-p {
     flex-direction: column;
     text-align: center;
@@ -118,7 +121,8 @@
     box-sizing: border-box;
     padding-bottom: 20px;
     width: 100%;
-    font-size: 20px;
+    line-height: 30px;
+    font-size: 30px;
   }
   .conteudo .btns-play{
     padding-top: 20px;

@@ -98,25 +98,38 @@
 }
 @media only screen and (max-width: 450px) {
   .component-work{
-    height: 1400px;
+    height: 1550px;
   }
   .component-work p {
     box-sizing: border-box;
     margin: 0 auto;
+    font-size: 30px;
+    line-height: 30px;
     padding-left:40px;
     padding-right: 40px;
     padding-bottom:150px ;
+  
+  }
+  .carts-work img{
+    height: 70px;
+    width: 90px;
+  }
+  .carts-work p{
+    font-size: 30px;
+  }
+  .component-work span{
+   font-size: 30px;
   }
   .carts-work{
     text-align: center;
   }
   .carts-work h1{
-    font-size: 30px;
+    font-size: 40px;
   }
-  .carts-work p{
+  .component-work .carts-work p{
     max-width: 100%;
     width: 100%;
-    font-size: 20px;
+    font-size: 30px;
     padding-bottom: 50px ;
   }
 }

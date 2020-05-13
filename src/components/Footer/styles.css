@@ -131,8 +131,11 @@
   }
 }
 @media only screen and (max-width: 420px){
-  .perfil{
-    height: 65vh;
+  .footer h1{
+    font-size: 40px;
+  }  
+  .input{
+    width: 70%;
   }
   .footer-options .header-footer{
     box-sizing: border-box;
