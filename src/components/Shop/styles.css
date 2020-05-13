@@ -23,7 +23,7 @@
   margin-bottom: 5%;
 
  }
- .block-cart{
+ .block-cart .scroll-padding{
     display: flex;  
     height: 70%;
     width: 100%;
@@ -181,11 +181,11 @@
   .block-p p.especial{
     font-size: 35px;
   }
-  .shop .block-cart{
+  .shop .block-cart .scroll-padding{
     flex-wrap: nowrap;
     display: flex;
     overflow-x: scroll;
-    width:100%;
+    width:96%;
     height: 1000px;
     position: absolute;
   }
@@ -193,12 +193,10 @@
     display: none;
   }
   .shop .block-cart .shop-cart:first-child{
-    margin-left:  3100px; 
-    border-left: 40px solid #fff;
+    margin-left:  3150px; 
+
   }
-  .shop .block-cart .shop-cart:last-child{
-    border-right: 40px solid #fff;
-  }
+  
   .shop .block-cart .shop-cart{
     flex-shrink: 0;
     width: 570px;
