@@ -194,8 +194,10 @@
   }
   .shop .block-cart .shop-cart:first-child{
     margin-left:  3100px; 
+    border-left: 40px solid #fff;
   }
   .shop .block-cart .shop-cart:last-child{
+    border-right: 40px solid #fff;
   }
   .shop .block-cart .shop-cart{
     flex-shrink: 0;
