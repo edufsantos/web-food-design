@@ -1,0 +1,369 @@
+
+* {
+padding:0;
+margin:0;
+vertical-align:baseline;
+list-style:none;
+list-style-type: none;
+text-decoration: none;
+border:0;
+box-sizing: border-box;
+}
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+/* --------------- estilo notebook ---------------- */
+
+nav{
+  box-sizing: border-box;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+.imagem-apre {
+  height: 400px;
+  width: 100%;
+  background-image: url('../../utilss/imagem-apre.svg');
+  background-size: 600px;
+  background-repeat:no-repeat ;
+  background-position: center;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 450px) {
+  nav{
+    background: #FF9F0D;
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    padding:  0 20px;
+    border-radius: 0 0 30px 0px;
+    box-shadow: 0px 1px 10px 3px rgba(0,0,0,.1) ;
+  }
+  nav p{
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Gilroy';
+    color: #fff;
+  }
+  nav a img{
+    height: 25px;
+    width: 25px;
+    margin-right: 20px;
+  }
+  nav a:first-child{
+    display: flex;
+    font-size: 30px;
+    font-family: 'Gilroy ExtraBold';
+    color: #FF9F0D;
+  }
+  nav .botoes{
+    display: flex;
+  }
+  nav .botoes a::before{
+    content: '';
+    margin-right: -30px;
+    height: 10px;
+    width: 10px;
+    position: relative;
+    border-radius: 50%;
+    background: #fff;
+
+  }
+ 
+  .cardapio-h1-img{
+    display: flex;
+    padding-left: 20px;
+  }
+  .cardapio-h1-img img{
+    height: 35px;
+  }
+
+
+  .cardapio-h1-img h1{
+    font-size: 30px;
+    font-family: 'Gilroy';
+    font-weight: normal;
+    color: #2F2E41;
+  }
+  .cardapio-h1-img h1::after{
+    content: '';
+    width: 100px;
+    height: 1px;
+    display: block;
+    animation: widthSize 1s ease-in-out;
+    background-color: #FF9F0D ;
+  }
+  @keyframes widthSize {
+    from{
+      width: 0;
+    }
+    to{
+      width: 100px;
+    }
+  }
+
+
+
+  /* button style */
+
+  .menu-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    /* border: 3px solid #fff; */
+  }
+  .menu-btn__burger {
+    width: 25px;
+    height: 2px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    transition: all .5s ease-in-out;
+  }
+  .menu-btn__burger::before,
+  .menu-btn__burger::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    transition: all .5s ease-in-out;
+  }
+  .menu-btn__burger::before {
+    transform: translateY(-8px);
+  }
+  .menu-btn__burger::after {
+    transform: translateY(8px);
+  }
+  /* ANIMATION */
+  .menu-btn.open .menu-btn__burger {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+  }
+  .menu-btn.open .menu-btn__burger::before {
+    transform: rotate(45deg) translate(35px, -35px);
+  }
+  .menu-btn.open .menu-btn__burger::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+  }
+
+
+
+
+  /* -options cart & lista filtro */
+  
+  .lista-filtro{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 96%;
+    height: 100px;
+    overflow-x: hidden;
+    overflow-x: scroll;
+  }
+  .lista-filtro button:first-child{
+    margin-left: 20px;
+  }
+
+  .lista-filtro button{
+    min-width: max-content;
+    margin-left: 20px;
+    overflow: hidden;
+    justify-content: center;
+    height: 30px;
+    flex: 1;
+    border: 0;
+    border-radius: 20px;
+    background: rgb(250, 247, 247);
+
+  }
+  .lista-filtro button span{
+  
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0 10px;
+    font-size: 15px;
+    font-family: 'Gilroy ExtraBold';
+    color: #717171;
+  }
+  .itens-separacao:last-child{
+    padding-bottom: 50px;
+  }
+  .lista-filtro button:focus{
+    border: none;
+    background:#FF9F0D ;
+    color: #fff;
+    outline: none;
+  }
+  .lista-filtro button:focus span{
+    color: #fff;
+  }
+  .cart-selecionado img{
+    background:#fff ;
+  }
+  .cart-filtrado{
+    width: 100%;
+    background-color: #2F2E41;
+  }
+  .lista-produto a{
+    text-decoration: none;
+    display: flex ;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: max-content ;
+  }
+  .cart-produtos-carrinho {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    width: 90%;
+    min-height: max-content;
+    margin-bottom: 30px;
+    border-radius: 2px 30px 2px 30px;
+    box-shadow: 0px 1px 10px 3px rgba(0,0,0,.1) ;
+
+  }
+  
+  .alinhar-textos h1{
+    max-width: 100%;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Gilroy';
+    color: #2F2E41;
+    padding: 0 20px;
+    margin-bottom: 5px;
+  }
+  .alinhar-textos span{
+    padding: 0 20px;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Gilroy';
+    color: #484848;
+    margin-bottom: 5px;
+  }
+  .alinhar-textos strong{
+    font-size: 20px;
+    padding: 0 0 20px 20px;
+    color: black;
+    font-family: 'Gilroy';
+    
+    margin-top: 15px;
+  }
+  .alinhar-textos{
+    display: flex;
+    flex-direction: column;
+  }
+  .alinhar-img{
+    border-radius: 2px 30px 2px 30px;
+    height: 160px;
+    width: 100%;
+    /* background-image: url("https://www.jackpizza.com.br/wp-content/uploads/strogonoff-de-carne.jpg");  */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  .sidebar-nav{
+    transform: translateX(-300px);
+    transition: all 1s ease-in-out;
+    height: 100%;
+    width: 60%;
+    position: absolute;
+    background-color: #FF9F0D;
+  }
+  .open-menu-sidebar.sidebar-nav{
+    transform: translateX(0);
+    animation: togleAnimationSide 1s ease;
+  }
+
+  @keyframes togleAnimationSide {
+    from{
+      transform: translateX(-200px);
+    }
+    to{
+      transform: translateX(0);
+    }
+  }
+  
+
+
+
+  
+  .itens-separacao:first-child{
+    margin-top: 0px;
+  }
+  .itens-separacao{
+    margin-top: 50px;
+  }
+  
+  .botao-carrinho{
+    color: #FFF;
+    width: calc(100% - 30px);
+    bottom: 15px;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    margin-left: 15px;
+    border-radius: 20px;
+    justify-content: space-around;
+    background-color: #FF9F0D;
+    align-items: center;
+  }
+  .botao-carrinho h1{
+    font-size: 20px;
+    font-family: 'Gilroy';
+    font-weight: normal;
+  }
+  .btn-carrinho-diplay .botao-carrinho {
+    display: none;
+  }
+
+  
+  
+}

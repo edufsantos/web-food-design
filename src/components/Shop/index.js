@@ -15,7 +15,7 @@ function Shop() {
       <p>escolha seu almoço e janta preferidos conosco, sem sair de casa</p>
 
       <div className="block-cart"> 
-      <div className="scroll-padding">
+        <div className="scroll-padding">
         <div className="shop-cart">
               <img src={prato1} alt=""/>
               <div className="block-h1">

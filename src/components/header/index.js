@@ -16,7 +16,6 @@ function HeaderTwo() {
               de uma página quando estiver examinando sua diagramação.</p>
           </div>
           <div className="btns-play">
-  
             <button className="btn-learn">Learn More</button> 
             <a href="#"><img src={play} alt=""/>Watch Video</a>
           </div>
