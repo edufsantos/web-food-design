@@ -22,10 +22,12 @@ function Navbar() {
       <div className={active ? "open menu-btn-home " : "menu-btn-home"}>
            <div onClick={addActive} class={active ? "open menu-btn__burger-home" : "menu-btn__burger-home"}></div>
       </div>
-      <div className="logo"></div>
+      <div className="logo">
+        <h1>FOOD</h1>
+      </div>
       <div className="person">
         <Link to="/cart">
-          <MdRestaurantMenu size={50} color="#2F2E41"/>
+          <MdRestaurantMenu size={50} color="#fff"/>
         </Link>
       </div>
     </nav>

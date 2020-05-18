@@ -132,6 +132,7 @@
 }
 @media only screen and (max-width: 420px){
   .footer{
+    height: 80vh;
     margin-top: 100px;
   }
   .footer h1{

@@ -7,21 +7,25 @@
     z-index: 1000;
     border-radius: 0 0 0px 50px;
   }
-  
+  .logo h1{
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Gilroy ExtraBold';
+  }
   .menu-btn-home{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 35px;
+    width: 40px;
     height: 35px;
     cursor: pointer;
     transition: all .5s ease-in-out;
     /* border: 3px solid #fff; */
   }
   .menu-btn__burger-home{
-    width: 35px;
+    width: 40px;
     height: 4px;
-    background: #2F2E41;
+    background: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(255,101,47,.2);
     transition: all .5s ease-in-out;
@@ -30,9 +34,9 @@
   .menu-btn__burger-home::after {
     content: '';
     position: absolute;
-    width: 35px;
+    width: 40px;
     height: 4px;
-    background: #2F2E41;
+    background: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(255,101,47,.2);
     transition: all .5s ease-in-out;

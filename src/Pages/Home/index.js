@@ -22,7 +22,7 @@ function Home() {
               <p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível
                 de uma página quando..</p>
               <ul>
-                  <a href="">Saiba Mais<MdArrowForward className="arrow" /></a>
+                  <a href="">Saiba Mais</a>
               </ul>
             </ScrollAnimation>
         </div>   
@@ -32,7 +32,7 @@ function Home() {
         <HeaderTwo/>
         <Works/>
         <Shop/>
-        <Perfil/>
+        {/* <Perfil/> */}
         <Footer/>
     </div>
   );
